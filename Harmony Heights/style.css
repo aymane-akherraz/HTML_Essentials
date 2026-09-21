@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --font-heading: 'Merriweather', Georgia, serif;
+    --font-body: 'Inter', Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-heading);
+}
+
+body {
+    font-family: var(--font-body);
+    margin: 20px;
+}
+
+.link,
+label,
+input {
+    display: block;
+}
+
+label {
+    margin: 10px 0;
+}
+
+input[type="submit"] {
+    margin: 20px 0;
+}
