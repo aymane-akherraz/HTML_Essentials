@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sunnydale School</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: rgb(0, 0, 255);
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        #mission,
+        #upcoming-events,
+        #contact {
+            font-family: 'Courier New', Courier, monospace;
+            font-style: italic;
+            background-color: #1E90FF;
+            color: white;
+            padding: 5px;
+        }
+
+        #events li {
+            padding: 5px 0;
+        }
+
+        .section {
+            background-color: #f8f3f3;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Sunnydale School</h1>
+    <p>Welcome to Sunnydale School, dedicated to fostering a love of learning in every student.</p>
+
+    <h2 id="mission">Mission Statement</h2>
+    <p>Our mission is to provide a quality education that prepares all children for a successful future.</p>
+
+    <h3 id="upcoming-events">Upcoming Events</h3>
+    <ul id="events">
+        <li data-event-type="indoor" title="Event Type: Indoor">Science Fair - <span
+                style="font-weight: bold; color: red">June 10</span></li>
+        <li class="outdoor" data-event-type="outdoor" title="Event Type: Outdoor">Art Exhibition - <span
+                style="font-weight: bold; color: red">June 15</span></li>
+        <li class="outdoor" data-event-type="outdoor" title="Event Type: Outdoor">Sports Day - <span
+                style="font-weight: bold; color: red">June 20</span></li>
+    </ul>
+
+    <h4 id="contact">Contact Us</h4>
+    <div class="section">
+        <p>Email: <span title="Click to copy email" onclick="copyText(event)">info@sunnydaleschool.com</span></p>
+        <p>Phone: <span title="Click to copy phone number" onclick="copyText(event)">555-1234</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
