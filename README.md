@@ -33,6 +33,7 @@ HTML (HyperText Markup Language) is the standard markup language used to structu
 * [The Document Object Model (DOM)](#the-document-object-model-dom)
 
   * [DOM Tree Example](#dom-tree-example)
+* [License](#license)
 
 ---
 
@@ -893,4 +894,12 @@ The DOM connects HTML with programming languages such as JavaScript by providing
                           │
                  Dynamic Web Page
 ```
+---
 
+# License
+
+The content in this repository is based on the **HTML Essentials** course from **Cisco Networking Academy (NetAcad)**.
+
+This repository is intended for **educational and learning purposes**. The original course material and concepts remain the property of their respective copyright holders.
+
+No ownership of the original NetAcad course material is claimed.
